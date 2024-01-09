@@ -1,0 +1,15 @@
+.user-card{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px;
+
+  &__info{
+    margin-bottom: 10px;
+  }
+
+  &__buttons{
+    display: flex;
+    gap: 10px;
+  }
+
+}

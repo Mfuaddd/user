@@ -1,0 +1,21 @@
+.add {
+  display: flex;
+  justify-content: center;
+  padding-top: 15%;
+
+  &__form {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+
+    &__input{
+      margin-bottom: 10px;
+    }
+
+    &__submit{
+      margin-top: 10px;
+    }
+  }
+}
